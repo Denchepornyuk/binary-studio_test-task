@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2ee6b0e5b4ce14e26400b8f1220aa3e6",
+    "revision": "cea3f5ec9dcba296e5e63f06fd2ecd1c",
     "url": "/binary-studio_test-task/index.html"
   },
   {
