@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/binary-studio_test-task/static/css/main.d116ac16.chunk.css",
+    "main.js": "/binary-studio_test-task/static/js/main.5975a759.chunk.js",
+    "main.js.map": "/binary-studio_test-task/static/js/main.5975a759.chunk.js.map",
+    "runtime~main.js": "/binary-studio_test-task/static/js/runtime~main.403a9f23.js",
+    "runtime~main.js.map": "/binary-studio_test-task/static/js/runtime~main.403a9f23.js.map",
+    "static/js/2.7890705c.chunk.js": "/binary-studio_test-task/static/js/2.7890705c.chunk.js",
+    "static/js/2.7890705c.chunk.js.map": "/binary-studio_test-task/static/js/2.7890705c.chunk.js.map",
+    "index.html": "/binary-studio_test-task/index.html",
+    "precache-manifest.61a311e27bff437a3ff7c178b71c220d.js": "/binary-studio_test-task/precache-manifest.61a311e27bff437a3ff7c178b71c220d.js",
+    "service-worker.js": "/binary-studio_test-task/service-worker.js",
+    "static/css/main.d116ac16.chunk.css.map": "/binary-studio_test-task/static/css/main.d116ac16.chunk.css.map"
+  }
+}
