@@ -35,6 +35,15 @@ const rootReducer = (state = initialState, action) => {
         isLoading: false,
       };
 
+    case ACTIONS_TYPES.ADD_NEW_RECIPE:
+      return {
+        ...state,
+        recipesListData: [
+          ...state.recipesListData,
+          action.recipe,
+        ],
+      };
+
     default:
       return state;
   }

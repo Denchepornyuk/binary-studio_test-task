@@ -5,6 +5,7 @@ export const ACTIONS_TYPES = {
   SET_RECIPES_ERROR: 'SET_RECIPES_ERROR',
   START_LOADING: 'START_LOADING',
   STOP_LOADING: 'STOP_LOADING',
+  ADD_NEW_RECIPE: 'ADD_NEW_RECIPE',
 };
 
 const getRecipes = recipes => ({
@@ -25,11 +26,16 @@ const stopLoading = () => ({
   type: ACTIONS_TYPES.STOP_LOADING,
 });
 
+export const addRecipe = recipe => ({
+  type: ACTIONS_TYPES.ADD_NEW_RECIPE,
+  recipe,
+});
+
 export const loadRecipes = () => (dispatch) => {
   dispatch(startLoading());
 
   getRecipesFromServer()
-    .then(({ data }) => dispatch(getRecipes(data)))
+    .then(data => dispatch(getRecipes(data)))
     .catch(error => dispatch(setRecipesError(error.message)))
     .finally(() => dispatch(stopLoading()));
 };

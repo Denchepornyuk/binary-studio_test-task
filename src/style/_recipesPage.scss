@@ -1,0 +1,13 @@
+.recipes-page {
+  background-color: rgba(255, 255, 255, 0.9);
+  position: relative;
+
+  &__title {
+    margin: 0;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 42px;
+    font-style: italic;
+    letter-spacing: 3px;
+  }
+}

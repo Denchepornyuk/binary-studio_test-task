@@ -1,10 +1,14 @@
 import React from 'react';
+import './style/index.scss';
 import RecipesList from './components/RecipesList/index';
+import AddNewRecipe from './components/AddNewRecipe/AddNewRecipe';
 
 const App = () => (
-  <div className="App">
+  <section className="recipes-page">
+    <h1 className="recipes-page__title">Cookbook</h1>
     <RecipesList />
-  </div>
+    <AddNewRecipe />
+  </section>
 );
 
 export default App;

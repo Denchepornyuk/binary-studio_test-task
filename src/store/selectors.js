@@ -9,7 +9,7 @@ export const selectRecipes = createSelector(
       return [];
     }
 
-    return recipesListData;
+    return recipesListData.sort((a, b) => a.date.localeCompare(b.date));
   }
 );
 

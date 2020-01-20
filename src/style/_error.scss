@@ -1,0 +1,19 @@
+.error {
+  @include content-center;
+  flex-direction: column;
+  height: 100vh;
+
+  &__text {
+    font-size: 32px;
+    letter-spacing: 2px;
+  }
+
+  &__link {
+    font-size: 20px;
+    color: rgb(1, 196, 1);
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
