@@ -12,7 +12,7 @@ const AddNewRecipe = () => {
           className="recipe__button"
           onClick={() => setShowWindow(true)}
         >
-          Add Recepe
+          Add Recipe
         </button>
       )
       : <ModalWindow closeWindow={setShowWindow} />
